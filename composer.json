@@ -1,0 +1,20 @@
+{
+    "name": "sukohi/laravel-readability",
+    "description": "A Laravel package to extract readable text from HTML.",
+    "authors": [
+        {
+            "name": "Sukohi",
+            "email": "capilano.sukohi@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~5.0",
+        "guzzlehttp/guzzle": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sukohi\\LaravelReadability\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
